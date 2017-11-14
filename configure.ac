@@ -30,6 +30,15 @@ fi
 if test -d $srcdir/UX ; then
 	AC_CONFIG_SUBDIRS([UX])
 fi
+if test -d $srcdir/QEMU ; then
+	AC_CONFIG_SUBDIRS([QEMU])
+fi
+if test -d $srcdir/DOS ; then
+	AC_CONFIG_SUBDIRS([DOS])
+fi
+if test -d $srcdir/GNU ; then
+	AC_CONFIG_SUBDIRS([GNU])
+fi
 
 AC_CONFIG_FILES([
 Makefile
