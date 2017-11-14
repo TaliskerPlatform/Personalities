@@ -14,7 +14,7 @@
 ##  See the License for the specific language governing permissions and
 ##  limitations under the License.
 
-AC_INIT([Frameworks],[develop])
+AC_INIT([Personalities],[develop])
 
 AC_CANONICAL_SYSTEM
 
